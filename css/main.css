@@ -4,7 +4,7 @@ html {
 }
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 	justify-content: center;
 	align-items: center;
 	padding: 0 15px;
@@ -20,7 +20,7 @@ h1 {
 	font-size: 1.875em;
 }
 h2 {
-	font-size: 1.125em;
+	font-size: 1em;
 }
 h3 {
 	font-size: .75em;
@@ -89,9 +89,14 @@ footer span {
 	justify-content: center;
 	line-height: 3em;
 }
+nav ul {
+	padding: 0;
+}
 .nav-links a{
 	text-decoration: none;
 	color:#77a466;
+	font-size: 1.25em;
+
 }
 
 /*Top Section*/
@@ -113,7 +118,7 @@ footer span {
 }
 .main-title p {
 	padding: 0;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 25px;
 }
 
@@ -152,11 +157,11 @@ footer span {
 }
 .reviews {
 	color: #333;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 21px;
 }
 .address {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 }
 
@@ -167,6 +172,9 @@ body {
   	justify-content: center;
   	align-items: center;
 	font-size: 1em;
+}
+h1 {
+	font-size: 1.875em;
 }
 .bottom-section {
 	display: flex;
@@ -220,12 +228,14 @@ body {
 	.nav {
 		border: none;
 		width: 0;
-		padding-right: 1.875em;
 	}
 	.navbar {
 		display: flex;
 		justify-content: flex-end;
 		flex-wrap: nowrap;
 		flex-direction: row;
+	}
+	.nav-links a {
+		font-size: 1em;
 	}
 }
